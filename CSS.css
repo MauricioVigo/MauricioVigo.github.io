@@ -22,6 +22,8 @@ nav{
     margin: 1em;
     margin-right: 20em;
     padding: 1em; 
+    color: rgb(0, 76, 241);
+    
 }
 .nav{
     margin: 1em;
@@ -61,7 +63,7 @@ img{
     height: auto; 
 }
 .bgimg{
-    background-color: orange;
+    background-color: rgb(255, 255, 255);
     width: 500px;
     height: 570px;
     position: absolute;
