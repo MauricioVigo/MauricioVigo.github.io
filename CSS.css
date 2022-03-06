@@ -63,7 +63,7 @@ img{
     height: auto; 
 }
 .bgimg{
-    background-color: rgb(255, 255, 255);
+    background-color: orange;
     width: 500px;
     height: 570px;
     position: absolute;
