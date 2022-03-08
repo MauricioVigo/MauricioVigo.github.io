@@ -71,7 +71,7 @@ img{
     left: 8em;
     z-index:1;
     object-fit: contain;
-    opacity: 100%;
+    opacity: 0%;
 }
 
 .intro{
