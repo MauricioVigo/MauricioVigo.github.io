@@ -10,29 +10,57 @@ body{
     padding: 0;
 }
 nav{
+    margin: 1em; 
     display: flex;
     flex-direction:row;
     justify-content: right;
     flex-basis: auto;
-    width: 90%;
+    width: 60%;
     font-size: 20pt; 
-    margin-top: 1em;
+    position: sticky;
+    top: -1em;
+    float: right;
+    
+    
     
 }
 .nombre{
-    margin: 1em;
-    margin-right: 15em;
-    padding: 1em; 
+    padding: 1em;
+    margin: 1em; 
     color: rgb(52, 52, 240);
+    max-width: 200px;
+    font-size: 20pt;
+    float: left;
+    
+   
 }
-.nav{
-    margin: 1em;
+.nav1{
+    
     margin-left: 2em;
     padding: 1em;
     padding-bottom: 0.5em;
-    border-bottom: 0.1em solid black;
+    border-bottom: 0.1em solid #f55e5e;
+    height:fit-content;
+   
+}
+.nav2{
+    
+    margin-left: 2em;
+    padding: 1em;
+    padding-bottom: 0.5em;
+    border-bottom: 0.1em solid #2061ec;
     height:fit-content;
 }
+.nav3{
+  
+    margin-left: 2em;
+    margin-right: 8em;
+    padding: 1em;
+    padding-bottom: 0.5em;
+    border-bottom: 0.1em solid #ffae00;
+    height:fit-content;
+}
+
 /*Primera parte */
 .p1{
     width: 100%;
@@ -61,7 +89,7 @@ nav{
     max-width: 100%;
     min-width: 150px;
     height: auto; 
-    border-radius: 10px;
+    border-radius: 20px;
 }
 .bgimg{
     background-color: orange;
@@ -95,7 +123,8 @@ nav{
     text-align: center;
     width: 60%;
     font-size: 40pt;
-    color: blue;  
+    color: rgb(72, 72, 233);  
+
     
 
 }
@@ -205,4 +234,64 @@ nav{
 }
 .divimg img{
     border-radius: 20px;
+}
+/*Services*/
+.servicios{
+    background-color: #FFDB58;
+    border-radius: 20px;
+    color:black;
+    margin-bottom: 5em;
+}
+.servicios h1{
+    margin-top: 3em;
+    padding-top: 1em;
+    font-size: 30pt;
+    text-align: center;
+    
+}
+.servicios2{
+    display: flex;
+    justify-content: space-around;
+    
+    
+}
+.servicios h2{
+    text-align: center;
+}
+.servicios2 div{
+    border-radius: 20px;
+    max-width: 15em;
+    padding: 1em;
+    margin-top: 1em;
+    margin-bottom: 5em;
+    font-size: 16pt;
+    background-color: white;
+}
+/*Contacto*/
+.Contacto{
+    display: flex;
+    justify-content: space-around;
+    align-items:flex-start;
+    
+    color: black;
+    font-size: 15pt;
+    margin: 10em;
+}
+.Contacto div{
+    margin: 0.5em;
+    text-align: center;
+}
+.social{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    background-color: black;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    min-height: 5em;
+    color: white;
+}
+.social div{
+    margin: 0.5em;
+    text-align: center;
 }
