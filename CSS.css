@@ -21,7 +21,7 @@ nav{
 }
 .nombre{
     margin: 1em;
-    margin-right: 20em;
+    margin-right: 15em;
     padding: 1em; 
     color: rgb(52, 52, 240);
 }
@@ -57,21 +57,23 @@ nav{
     max-width: 100%;
     height: auto; 
 }
-img{
+.img img{
     max-width: 100%;
-    min-width: 50%;
+    min-width: 150px;
     height: auto; 
+    border-radius: 10px;
 }
 .bgimg{
     background-color: orange;
-    width: 500px;
-    height: 570px;
+    max-width: 500px;
+    min-width:500px;
+    max-height: 570px;
     position: absolute;
     bottom: 0.5em;
     left: 8em;
     z-index:1;
     object-fit: contain;
-    opacity: 0%;
+    opacity: 100%;
 }
 
 .intro{
@@ -81,43 +83,56 @@ img{
     "block block block block";
     grid-auto-columns:minmax(5em,auto);
     grid-auto-rows: minmax(10em,auto);
-    width: 50%;
+    max-width: 50%;
     margin: auto; 
+    grid-gap: 1em;
+    flex-shrink: 4;
+   
+    
 }
 .intro h2{
     grid-area: header;
     text-align: center;
-    padding: 0.1em;
     width: 60%;
-    font-size: 50pt;
+    font-size: 40pt;
     color: blue;  
     
+
 }
 .intro p{  
     text-align: center;
-    padding-top: 1.7em;
+    padding:1em;
     font-size: 18pt; 
-}
-.r{
-    background-color:rgba(255, 55, 55, 0.979);
-    border-radius: 1em;
-    padding-bottom: 1.5em;
+    min-width: 110px;
+    margin: 1em;
+    
     
 }
+.intro p img{
+    max-width: 80px;
+    margin-top: 0.5em;
+    
+    
+}
+.r{
+    background-color:#f55e5e;
+    border-radius: 1em;
+
+}
 .b{
-    background-color: rgb(32, 97, 236);
+    background-color: #2061ec;
     border-radius: 1em;
 }
 .o{
-    background-color: rgb(255, 174, 0);
+    background-color: #ffae00;
     border-radius: 1em;
     
 }
 .g{
-    background-color: green;
+    background-color: #279c27;
     border-radius: 1em;
 }
-    
+ 
 
 
 /*Segunda parte*/
